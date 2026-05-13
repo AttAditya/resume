@@ -1,4 +1,4 @@
-name: MD to One-Page PDF → GitHub Pages
+name: MD → True One Page PDF → GitHub Pages
 
 on:
   push:
@@ -12,22 +12,38 @@ jobs:
     runs-on: ubuntu-24.04
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Pandoc + LaTeX + fonts
+      - name: Install tools + fonts
         run: |
           sudo apt-get update
           sudo apt-get install -y \
             pandoc \
             texlive-xetex \
             texlive-latex-recommended \
-            fonts-texgyre
+            texlive-latex-extra \
+            fonts-dejavu
 
-          # Try installing Google fonts (Lexend if available)
-          sudo apt-get install -y fonts-noto fonts-liberation || true
+      - name: Create LaTeX wrapper template
+        run: |
+          cat << 'EOF' > onepage.tex
+          \documentclass[10pt]{article}
+          \usepackage[margin=0.3in]{geometry}
+          \usepackage{adjustbox}
+          \usepackage{fontspec}
+          \setmainfont{DejaVu Sans}
+          \pagestyle{empty}
+          \setlength{\parindent}{0pt}
 
-      - name: Convert Markdown to compact PDF
+          \begin{document}
+          \begin{adjustbox}{max totalsize={\textwidth}{\textheight},center}
+          $body$
+          \end{adjustbox}
+          \end{document}
+          EOF
+
+      - name: Convert MD → ONE PAGE PDF
         run: |
           mkdir -p output
 
@@ -36,20 +52,15 @@ jobs:
 
             pandoc "$file" -o "output/${file%.md}.pdf" \
               --pdf-engine=xelatex \
-              -V geometry:margin=0.3in \
-              -V fontsize=8pt \
-              -V linestretch=0.9 \
-              -V pagestyle=empty \
-              -V mainfont="DejaVu Sans"
+              --template=onepage.tex \
+              -V geometry:margin=0.3in
           done
 
-      - name: Prepare gh-pages branch
+      - name: Deploy to gh-pages
         run: |
           mkdir gh-pages
           cp -r output/* gh-pages/
 
-      - name: Deploy to gh-pages
-        run: |
           cd gh-pages
           git init
           git config user.name "github-actions"
