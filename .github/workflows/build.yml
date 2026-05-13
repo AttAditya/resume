@@ -1,4 +1,4 @@
-name: MD to PDF → GitHub Pages
+name: Build MD to PDF and Deploy to GitHub Pages
 
 on:
   push:
@@ -15,19 +15,20 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Create output folder
-        run: mkdir -p output
-
-      - name: Convert MD to PDF
+      - name: Install Pandoc + LaTeX
         run: |
-          docker run --rm -v $PWD:/data pandoc/core:3.8 sh -c "
-            for file in /data/*.md; do
-              [ -e \"$file\" ] || continue
-              pandoc \"$file\" -o \"/data/output/$(basename \"${file%.md}.pdf\")\"
-            done
-          "
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base
 
-      - name: Prepare gh-pages folder
+      - name: Convert Markdown to PDF
+        run: |
+          mkdir -p output
+          for file in *.md; do
+            [ -e "$file" ] || continue
+            pandoc "$file" -o "output/${file%.md}.pdf"
+          done
+
+      - name: Init gh-pages branch
         run: |
           mkdir gh-pages
           cp -r output/* gh-pages/
@@ -39,7 +40,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git checkout -b gh-pages
-          cp -r ../output/* .
           git add .
           git commit -m "Update PDFs" || echo "No changes"
           git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} gh-pages
