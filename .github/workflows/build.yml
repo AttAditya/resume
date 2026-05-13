@@ -15,22 +15,32 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install Pandoc + LaTeX
+      - name: Install Pandoc + LaTeX + fonts
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-latex-recommended
+          sudo apt-get install -y \
+            pandoc \
+            texlive-xetex \
+            texlive-latex-recommended \
+            fonts-texgyre
+
+          # Try installing Google fonts (Lexend if available)
+          sudo apt-get install -y fonts-noto fonts-liberation || true
 
       - name: Convert Markdown to compact PDF
         run: |
           mkdir -p output
+
           for file in *.md; do
             [ -e "$file" ] || continue
+
             pandoc "$file" -o "output/${file%.md}.pdf" \
               --pdf-engine=xelatex \
-              -V geometry:margin=0.4in \
-              -V fontsize=9pt \
-              -V linestretch=0.95 \
-              -V pagestyle=empty
+              -V geometry:margin=0.3in \
+              -V fontsize=8pt \
+              -V linestretch=0.9 \
+              -V pagestyle=empty \
+              -V mainfont="DejaVu Sans"
           done
 
       - name: Prepare gh-pages branch
