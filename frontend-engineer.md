@@ -99,8 +99,8 @@
 
 - **Link**: [https://attaditya.github.io/Little-Plane-Project/](https://attaditya.github.io/Little-Plane-Project/)
 - **Repo**:
-  - _Original_: [https://github.com/iconoir-icons/iconoir](https://github.com/iconoir-icons/iconoir)
-  - _Fork_: [https://github.com/glowstick0017/Little-Plane-Project/](https://github.com/glowstick0017/Little-Plane-Project/)
+  - _Original_: [https://github.com/glowstick0017/Little-Plane-Project/](https://github.com/glowstick0017/Little-Plane-Project/)
+  - _Fork_: [https://github.com/AttAditya/Little-Plane-Project/](https://github.com/AttAditya/Little-Plane-Project/)
 - Details
   - Refactored code and fixed several bugs.
   - Added features like animated sprites and instruments.
