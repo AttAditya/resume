@@ -3,7 +3,7 @@
 # Aditya Prasad Dash
 
 [+91-9777473578](tel:+919777473578) | [adityaprasaddash.official@gmail.com](mailto:adityaprasaddash.official@gmail.com)\
-[Portfolio](https://attaditya.github.io/) | [LinkedIn](https://www.linkedin.com/in/attachment-aditya) | [GitHub](https://github.com/attaditya) | [LeetCode](https://leetcode.com/attaditya/)
+[Portfolio](https://attaditya.space/) | [LinkedIn](https://www.linkedin.com/in/attachment-aditya) | [GitLab](https://gitlab.com/attaditya) | [LeetCode](https://leetcode.com/attaditya/)
 
 </div>
 
@@ -20,7 +20,6 @@
 - **Degree**: BSc in Computer Science
 - **Duration**: 2023 - 2026
 - **CGPA**: 7.62
-
 
 ## Experience
 
@@ -50,8 +49,7 @@
 - **Tech**: Java, Kotlin, Ruby, JavaScript, TypeScript, SQL, Android, Web
 - **Responsibilities**:
   - Built and maintained an internal Android application for Business Development Associates (BDAs), integrating feedback into iterative feature improvements.
-  - Optimized the app from syncs taking days long time to 90th percentile
-  sync within 15 minutes.
+  - Optimized the app from syncs taking days long time to 90th percentile sync within 15 minutes.
   - Developed web and Ruby backend components to support internal tools and dashboards.
   - Implemented frontend features and interfaces using JavaScript/TypeScript for internal admin workflows.
 
