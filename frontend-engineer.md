@@ -2,8 +2,8 @@
 
 # Aditya Prasad Dash
 
-[+91-9777473578](tel:+919777473578) | [adityaprasaddash.official@gmail.com](mailto:adityaprasaddash.official@gmail.com)\
-[Portfolio](https://attaditya.space/) | [LinkedIn](https://www.linkedin.com/in/attachment-aditya) | [GitLab](https://gitlab.com/attaditya) | [LeetCode](https://leetcode.com/attaditya/)
+[+91-9777473578](tel:+919777473578) | [hello@attaditya.space](mailto:hello@attaditya.space)\
+[Portfolio](https://attaditya.space/) | [LinkedIn](https://www.linkedin.com/in/attachment-aditya) | [GitHub](https://github.com/attaditya) | [GitLab](https://gitlab.com/attaditya) | [LeetCode](https://leetcode.com/attaditya/)
 
 </div>
 
@@ -11,14 +11,14 @@
 
 ### Scaler School of Technology (in collaboration with BITS Pilani)
 
-- **Degree**: Provided by BITS Pilani
+- **Degree**: Undergraduate Program in Computer Science
 - **Duration**: 2023 - 2027
 - **CGPA**: 9.17
 
 ### Birla Institute of Technology and Science, Pilani (BITS Pilani)
 
-- **Degree**: BSc in Computer Science
-- **Duration**: 2023 - 2026
+- **Degree**: BSc (Hons) in Computer Science
+- **Duration**: 2023 - 2027
 - **CGPA**: 7.62
 
 ## Experience
@@ -26,97 +26,65 @@
 ### SDE Intern at Wabby AI
 
 - **Duration**: Jan 2026 – Apr 2026
-- **Tech**: Next.js, React, GraphQL
 - **Responsibilities**:
-  - Owned development of the core real-time chat experience using GraphQL subscriptions.
-  - Built modular frontend architecture handling caching, pagination, and re-render control.
-  - Integrated authentication and embedded sign-up flows, collaborated on backend design decisions.
-  - Developed foundational systems for an early-stage platform prior to public release.
+  - Built real-time chat interfaces using GraphQL subscriptions with low-latency message updates.
+  - Designed modular frontend architecture with client-side caching, pagination, and reusable data-fetching patterns.
+  - Implemented authentication, onboarding, and product flows across the web application.
 
-### Frontend Development Intern at Sing One Song, Inc
+### Software Engineer Intern at Sing One Song Inc
 
 - **Duration**: Aug 2025 – Jan 2026
-- **Tech**: React, TypeScript, Web and Mobile
 - **Responsibilities**:
-  - Implemented onboarding and core application flows across web and mobile platforms.
-  - Built interactive game features integrated into the main product experience.
-  - Performed production bug fixes, refactors, and codebase improvements.
-  - Revamped the landing page UI, receiving positive stakeholder feedback.
+  - Built and shipped interactive product experiences across web and mobile applications.
+  - Developed game interfaces and engagement features with reusable frontend components and application state management.
+  - Resolved production issues and redesigned key landing pages to improve usability and conversion.
 
-### Software Development Intern at Scaler Academy (InterviewBit)
+### SDE Intern at Scaler Academy
 
 - **Duration**: Nov 2024 – Apr 2025
-- **Tech**: Java, Kotlin, Ruby, JavaScript, TypeScript, SQL, Android, Web
 - **Responsibilities**:
-  - Built and maintained an internal Android application for Business Development Associates (BDAs), integrating feedback into iterative feature improvements.
-  - Optimized the app from syncs taking days long time to 90th percentile sync within 15 minutes.
-  - Developed web and Ruby backend components to support internal tools and dashboards.
-  - Implemented frontend features and interfaces using JavaScript/TypeScript for internal admin workflows.
+  - Built internal Android applications, dashboards, and administrative interfaces for business operations.
+  - Reduced data synchronization time from days to approximately 15 minutes through backend and application optimizations.
+  - Developed internal tooling and operational interfaces integrating frontend workflows with backend services.
 
 ## Projects
 
-### GraphScript - Visual Scripting Ecosystem
+### GSAM (GraphScript Engine)
 
-- **Link**: [https://graphscript-labs.github.io](https://graphscript-labs.github.io)
-- **Tech**: Python, React, TypeScript, CI/CD
+- **Tech**: Python, Compiler Design, Graph Execution
 - **Details**:
-  - Designed a node-based visual programming language and execution runtime.
-  - Built modular architecture with custom editors, tooling, and automated pipelines.
-  - Worked on CI/CD for smooth integration and release handling across all 7 repositories.
+  - Built an orchestration language for defining structured computational workflows as executable graphs.
+  - Developed compiler and runtime infrastructure for parsing, graph construction, scheduling, and execution.
+  - Designed modular execution components and runtime state management for extensible graph-based programs.
 
-### PackedBerry - All Purpose Discord Bot
+### ccReader
 
-- **Link**: [https://github.com/attaditya/packedberry](https://github.com/attaditya/packedberry)
-- **Tech**: Python, Discord API
+- **Tech**: TypeScript, Preact, Chrome Extensions API, Web Speech API
 - **Details**:
-  - Developed and deployed a general-purpose Discord bot used across 25+ servers and userbase of 1000+.
-  - Implemented features like moderation, fun commands, and utility functions to enhance server engagement.
-  - Maintained and updated the bot based on user feedback and reliability for 6 months.
- 
-### ccReader - Subtitles Reader Chrome Extension
+  - Built and published a Chrome extension that reads video subtitles aloud for dubbing and accessibility use cases.
+  - Implemented configurable playback speed, volume, pitch, and multiple browser-provided voices using the Web Speech API.
+  - Designed a lightweight Preact interface integrated with browser APIs for real-time subtitle processing and speech playback.
 
-- **Link**: [https://github.com/AttAditya/ccReader](https://github.com/AttAditya/ccReader)
-- **Tech**: Preact, Chrome Developer API
+### @attaditya/mdparse
+
+- **Tech**: TypeScript, Preact, Markdown, npm
 - **Details**:
-  - Created a chrome extension that narrates the subtitles of videos.
-  - Allowed 50+ Narration voices available.
-  - Added options for customizing voices.
-
-## Open Source
-
-### Iconoir Preact
-
-- **Link**: [https://www.npmjs.com/package/@attaditya/iconoir-preact](https://www.npmjs.com/package/@attaditya/iconoir-preact)
-- **Repo**:
-  - _Original_: [https://github.com/iconoir-icons/iconoir](https://github.com/iconoir-icons/iconoir)
-  - _Fork_: [https://github.com/AttAditya/iconoir](https://github.com/AttAditya/iconoir)
-- **Details**:
-  - Creating PRs on Iconoir for Preact support.
-
-### The Little Plane Project
-
-- **Link**: [https://attaditya.github.io/Little-Plane-Project/](https://attaditya.github.io/Little-Plane-Project/)
-- **Repo**:
-  - _Original_: [https://github.com/glowstick0017/Little-Plane-Project/](https://github.com/glowstick0017/Little-Plane-Project/)
-  - _Fork_: [https://github.com/AttAditya/Little-Plane-Project/](https://github.com/AttAditya/Little-Plane-Project/)
-- Details
-  - Refactored code and fixed several bugs.
-  - Added features like animated sprites and instruments.
-  - Added gameplay mechanics like Clouds, Time-Cycles and much more.
-  - Added sounds, working on multiplayer PRs.
-
+  - Built a Markdown parser for Preact with component-driven rendering and support for custom UI components.
+  - Designed a rendering architecture that maps parsed Markdown structures to user-provided Preact components.
+  - Published and maintained the package on npm as a reusable frontend library.
 
 ## Skills
 
-- **Languages**:  Python, Java, JavaScript, TypeScript, SQL
-- **Frontend**: React, Preact, Next.js, HTML, CSS
-- **Backend**: Flask, REST APIs, GraphQL, Spring Boot
-- **Systems**: Linux, Bash, Git, Basic CI/CD, Performance Optimization
-- **Foundations**: Data Structures, Algorithms, OS, Networking, Distributed Systems
+- **Frontend**: TypeScript, JavaScript, React, Preact, HTML, CSS, Tailwind CSS
+- **Backend**: Python, Node.js, Flask, REST APIs, GraphQL, Spring Boot
+- **State & Data**: GraphQL, Client-side Caching, SQL, MongoDB, Redis
+- **Systems & DevOps**: Linux, Bash, Git, CI/CD, Docker
+- **AI & Data**: LLM APIs, Prompt Engineering
+- **Core Concepts**: DSA, OS, Networking, System Design, Distributed Systems
 
 ## Achievements
 
-- Top 1.1% on LeetCode (Rating: 2189, Guardian Level)
+- Top 1.1% on LeetCode (Rating: 2189)
 - 4-Star CodeChef (Max Rating: 1837)
-- Hacktoberfest 2024 — 6 accepted PRs (Level 4)
-- CodeChef 140D: Rank 44 / 18,000+ (Top 0.25%)
+- CodeChef Best Rank: 44/18,000+ (Top 0.25%)
+- Hacktoberfest 2024 — 6 accepted PRs

@@ -2,8 +2,8 @@
 
 # Aditya Prasad Dash
 
-[+91-9777473578](tel:+919777473578) | [adityaprasaddash.official@gmail.com](mailto:adityaprasaddash.official@gmail.com)\
-[Portfolio](https://attaditya.space/) | [LinkedIn](https://www.linkedin.com/in/attachment-aditya) | [GitLab](https://gitlab.com/attaditya) | [LeetCode](https://leetcode.com/attaditya/)
+[+91-9777473578](tel:+919777473578) | [hello@attaditya.space](mailto:hello@attaditya.space)\
+[Portfolio](https://attaditya.space/) | [LinkedIn](https://www.linkedin.com/in/attachment-aditya) | [GitHub](https://github.com/attaditya) | [GitLab](https://gitlab.com/attaditya) | [LeetCode](https://leetcode.com/attaditya/)
 
 </div>
 
@@ -11,14 +11,14 @@
 
 ### Scaler School of Technology (in collaboration with BITS Pilani)
 
-- **Degree**: Provided by BITS Pilani
+- **Degree**: Undergraduate Program in Computer Science
 - **Duration**: 2023 - 2027
 - **CGPA**: 9.17
 
 ### Birla Institute of Technology and Science, Pilani (BITS Pilani)
 
-- **Degree**: BSc in Computer Science
-- **Duration**: 2023 - 2026
+- **Degree**: BSc (Hons) in Computer Science
+- **Duration**: 2023 - 2027
 - **CGPA**: 7.62
 
 ## Experience
@@ -26,83 +26,65 @@
 ### SDE Intern at Wabby AI
 
 - **Duration**: Jan 2026 – Apr 2026
-- **Tech**: Next.js, React, GraphQL
 - **Responsibilities**:
-  - Owned development of the core real-time chat experience using GraphQL subscriptions.
-  - Built modular frontend architecture handling caching, pagination, and re-render control.
-  - Integrated authentication and embedded sign-up flows, collaborated on backend design decisions.
-  - Developed foundational systems for an early-stage platform prior to public release.
+  - Built real-time messaging infrastructure using GraphQL subscriptions for low-latency communication.
+  - Designed modular frontend architecture with client-side caching, pagination, and reusable data flows.
+  - Integrated authentication and onboarding flows across frontend and backend services.
 
-### Frontend Development Intern at Sing One Song, Inc
+### Software Engineer Intern at Sing One Song Inc
 
 - **Duration**: Aug 2025 – Jan 2026
-- **Tech**: React, TypeScript, Web and Mobile
 - **Responsibilities**:
-  - Implemented onboarding and core application flows across web and mobile platforms.
-  - Built interactive game features integrated into the main product experience.
-  - Performed production bug fixes, refactors, and codebase improvements.
-  - Revamped the landing page UI, receiving positive stakeholder feedback.
+  - Developed production features across web and mobile applications, including onboarding and interactive user flows.
+  - Implemented game and engagement features while integrating application state with backend services.
+  - Resolved production issues and redesigned key product surfaces to improve usability and conversion.
 
-### Software Development Intern at Scaler Academy (InterviewBit)
+### SDE Intern at Scaler Academy
 
 - **Duration**: Nov 2024 – Apr 2025
-- **Tech**: Java, Kotlin, Ruby, JavaScript, TypeScript, SQL, Android, Web
 - **Responsibilities**:
-  - Built and maintained an internal Android application for Business Development Associates (BDAs), integrating feedback into iterative feature improvements.
-  - Optimized the app from syncs taking days long time to 90th percentile sync within 15 minutes.
-  - Developed web and Ruby backend components to support internal tools and dashboards.
-  - Implemented frontend features and interfaces using JavaScript/TypeScript for internal admin workflows.
+  - Built internal Android applications, dashboards, and administrative tooling for business operations.
+  - Optimized backend data synchronization, reducing processing time from days to approximately 15 minutes.
+  - Developed internal services and tooling using Ruby and web technologies to automate operational workflows.
 
 ## Projects
 
-### GraphScript - Visual Scripting Ecosystem
+### GSAM (GraphScript Engine)
 
-- **Link**: [https://graphscript-labs.github.io](https://graphscript-labs.github.io)
-- **Tech**: Python, React, TypeScript, CI/CD
+- **Tech**: Python, Compiler Design, Graph Execution
 - **Details**:
-  - Designed a node-based visual programming language and execution runtime.
-  - Built modular architecture with custom editors, tooling, and automated pipelines.
-  - Worked on CI/CD for smooth integration and release handling across all 7 repositories.
+  - Built an orchestration language for defining and executing structured computational workflows as graphs.
+  - Implemented a compiler pipeline spanning parsing, intermediate representation, graph construction, and execution planning.
+  - Developed a modular runtime with scheduling, execution state, and extensible components for graph execution.
 
-### Pilot - Low Context AI Model Coding Harness
+### CutyCode (Custom Formatter Collection)
 
-- **Link**: [https://github.com/AttAditya/pilot](https://github.com/AttAditya/pilot)
-- **Tech**: Python, Ollama API, AI Orchestration
+- **Tech**: Python, Parsing, Code Formatting
 - **Details**:
-  - Built a harness for providing a structured interface and tools for AI models.
-  - Worked on Low Context Open Source Local AI Model Orchestration to perform complex tasks.
-  - Released the project as open-source and released to PyPI as "pilot-code".
+  - Built an open-source multi-language code formatting toolkit with custom parsers and formatting engines.
+  - Designed reusable transformation pipelines to convert parsed source code into consistently formatted output.
+  - Developed language-specific formatting logic within an extensible architecture for adding new formatters.
 
-### Langex - Python Package
+### LangEx (Python Language Extension)
 
-- **Link**: https://pypi.org/project/langex/
-- **Tech**: Python, Packaging, PyPI
+- **Tech**: Python, Runtime Validation, Developer Tooling
 - **Details**:
-  - Built and published a Python package to extend the language capabilities of Python to support paradigm extensions and additional features.
-  - Implemented features for interfacing, data validation, singletons, and additional functionality to enhance Python Developer Experience.
-  - Packaged and distributed via PyPI for public use.
-  - Developed CI/CD pipelines for automated deployments.
-
-### PackedBerry - All Purpose Discord Bot
-
-- **Link**: [https://github.com/attaditya/packedberry](https://github.com/attaditya/packedberry)
-- **Tech**: Python, Discord API
-- **Details**:
-  - Developed and deployed a general-purpose Discord bot used across 25+ servers and userbase of 1000+.
-  - Implemented features like moderation, fun commands, and utility functions to enhance server engagement.
-  - Maintained and updated the bot based on user feedback and reliability for 6 months.
+  - Built a Python library extending language-level capabilities with interfaces, metadata inspection, and runtime validation.
+  - Implemented reusable abstractions for decorators, type enforcement, pipelines, and structured execution.
+  - Published and maintained the package on PyPI as an open-source developer library.
 
 ## Skills
 
-- **Languages**:  Python, Java, JavaScript, TypeScript, SQL
-- **Frontend**: React, Next.js, HTML, CSS
+- **Languages**: Python, Java, JavaScript, TypeScript, SQL
 - **Backend**: Flask, REST APIs, GraphQL, Spring Boot
-- **Systems**: Linux, Bash, Git, Basic CI/CD, Performance Optimization
-- **Foundations**: Data Structures, Algorithms, OS, Networking, Distributed Systems
+- **Systems & DevOps**: Linux, Bash, Git, CI/CD, Microservices
+- **Frontend**: React, Preact, HTML, CSS
+- **AI & Data**: LLM APIs, Prompt Engineering
+- **Core Concepts**: DSA, OS, Networking, System Design, Distributed Systems
 
 ## Achievements
 
-- Top 1.1% on LeetCode (Rating: 2189, Guardian Level)
+- Top 1.1% on LeetCode (Rating: 2189)
 - 4-Star CodeChef (Max Rating: 1837)
-- Hacktoberfest 2024 — 6 accepted PRs (Level 4)
-- CodeChef 140D: Rank 44 / 18,000+ (Top 0.25%)
+- CodeChef Best Rank: 44/18,000+ (Top 0.25%)
+- Hacktoberfest 2024 — 6 accepted PRs

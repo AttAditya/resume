@@ -4,6 +4,8 @@
 
 > Available in Great Web UI: [resume.attaditya.space](https://resume.attaditya.space)
 
-- [Software Engineer](https://github.com/AttAditya/resume/blob/main/software-engineer.md)
-- [Frontend Engineer](https://github.com/AttAditya/resume/blob/main/frontend-engineer.md)
+- [Software Engineer](./software-engineer.md)
+- [Frontend Engineer](./frontend-engineer.md)
+- [Backend Engineer](./backend-engineer.md)
+- [Teaching](./teaching.md)
 
