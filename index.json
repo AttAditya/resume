@@ -1,0 +1,22 @@
+[
+  {
+    "id": "software-engineer",
+    "title": "Software Engineer",
+    "path": "software-engineer.md"
+  },
+  {
+    "id": "frontend-engineer",
+    "title": "Frontend Engineer",
+    "path": "frontend-engineer.md"
+  },
+  {
+    "id": "backend-engineer",
+    "title": "Backend Engineer",
+    "path": "backend-engineer.md"
+  },
+  {
+    "id": "teaching-assistant",
+    "title": "Teaching Assistant",
+    "path": "teaching-assistant.md"
+  }
+]
