@@ -1,8 +1,8 @@
 [
   {
-    "id": "readme",
-    "title": "Overview",
-    "path": "README.md"
+    "id": "cv",
+    "title": "CV",
+    "path": "cv.md"
   },
   {
     "id": "software-engineer",
@@ -23,10 +23,5 @@
     "id": "teaching",
     "title": "Teaching",
     "path": "teaching.md"
-  },
-  {
-    "id": "cv",
-    "title": "CV",
-    "path": "cv.md"
   }
 ]
