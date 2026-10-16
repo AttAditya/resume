@@ -18,5 +18,10 @@
     "id": "teaching",
     "title": "Teaching",
     "path": "teaching.md"
+  },
+  {
+    "id": "cv",
+    "title": "CV",
+    "path": "cv.md"
   }
 ]
